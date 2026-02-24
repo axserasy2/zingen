@@ -26,6 +26,10 @@ color: var(--btn-color);
       rgba(247, 183, 51, 0.8)
     ),
     var(--surface-color);
+
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    color: var(--btn-color);
 }
 
 .btn-sm{
@@ -65,3 +69,14 @@ background-color: var(--bg-color)
 }
 }
 
+@media (width >=80em) {
+  .btn-sm{
+  padding: .75rem 1.5rem;
+  font-size: var(--fs-base);
+  }
+  .btn-md{
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  }
+
+}
